@@ -1,0 +1,100 @@
+style.css
+
+body {
+  background: #f2f2f2;
+  
+}
+
+h1 {
+  color: black;
+  font-size: 32px;
+  font-weight: 900;
+}
+h2 {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  font-weight: 500;
+}
+a {
+  text-decoration: none;
+  color: #6B72E1;
+  font-weight: 600;
+  font-size: 16px;
+}
+a:hover {
+  color: red;
+}
+
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 35px 0px;
+  text-align: center;
+}
+
+.image-circle {
+  border-radius: 50%;
+  width: 120px;
+}
+
+
+.btn {
+  background-color: #ff5500;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 50px;
+  color: rgb(230, 230, 230);
+}
+.list-inline i:hover {
+  color: black;
+}
+
+#introduction p {
+  margin-bottom: 40px;
+}
+
+.container {
+  width: 800px;
+  margin: 40px auto;
+}
+/*  Just to see the change*/
+@media (max-width: 960px) {
+  
+  .container {
+    width: 700px;
+    margin: 30px auto;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+    margin: 30px auto;
+  }
+}
+@media (max-width: 540px) {
+  
+  .container {
+    width: 300px;
+    margin: 20px auto;
+  }
+}
